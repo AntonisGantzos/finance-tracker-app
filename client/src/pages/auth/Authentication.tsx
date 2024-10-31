@@ -5,8 +5,8 @@ function Authentication() {
   return (
     <div className='sign-in-container'>
         <SignedOut>
-            <SignInButton/>
-            <SignUpButton />
+            <SignInButton mode='modal'/>
+            <SignUpButton mode='modal' />
         </SignedOut>
 
         <SignedIn>
