@@ -1,7 +1,7 @@
 import React from 'react'
 function FinancialRecordList() {
     return (
-   <div></div>
+   <div>Financial record list</div>
   )
 }
 
