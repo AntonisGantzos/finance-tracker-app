@@ -1,10 +1,16 @@
 import './App.css'
-
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 function App() {
 
   return (
     <>
-      <div>Hello World</div>
+      <Router>
+          <div className='app-container'>
+            <Routes>
+              <Route path='/' element={<h1>Dashboard</h1>} />
+            </Routes>
+          </div>
+      </Router>
     </>
   )
 }
